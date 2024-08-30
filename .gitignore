@@ -22,6 +22,9 @@ package-lock.json
 !.vscode/extensions.json
 !.vscode/tasks.json
 
+# drafts
+_drafts
+
 # Misc
 _sass/dist
 assets/js/dist
