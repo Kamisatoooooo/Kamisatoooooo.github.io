@@ -157,17 +157,19 @@ baseurl: ""
 jekyll_compose:
   default_front_matter:
     drafts:
-      author: Kamisatoooooo
+      author: 
       description:
       category: [Blog, ]
       tags: []
+      image: 
       media_subpath: 
     posts:
-      author: Kamisatoooooo
+      author: 
       description:
       category: [Blog, ]
       tags: []
-      media_subpath: 
+      image: 
+      media_subpath: "/assets/"
 
 # ------------ The following options are not recommended to be modified ------------------
 
