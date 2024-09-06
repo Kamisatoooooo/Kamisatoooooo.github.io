@@ -23,21 +23,22 @@ proxies:
 proxy-groups:
   - { name: XTTLOVE, type: select, proxies: [], use: [XTTLOVE] }
   - { name: IGG, type: select, proxies: [], use: [IGG] }
+  - { name: Halo, type: select, proxies: [], use: [Halo]}
 
   ### Frequently used ###
-  - { name: ✈️🇺🇸 Select, type: select, proxies: [], use: [XTTLOVE_US, IGG_US] }
-  - { name: ✈️🇭🇰 Select, type: select, proxies: [], use: [XTTLOVE_HK, IGG_HK] }
-  - { name: ✈️🇹🇼 Select, type: select, proxies: [], use: [XTTLOVE_TW, IGG_TW] }
-  - { name: ✈️🇸🇬 Select, type: select, proxies: [], use: [XTTLOVE_SG, IGG_SG] }
-  - { name: ✈️🇯🇵 Select, type: select, proxies: [], use: [XTTLOVE_JP, IGG_JP] }
+  - { name: ✈️🇺🇸 Select, type: select, proxies: [], use: [XTTLOVE_US, Halo_US, IGG_US] }
+  - { name: ✈️🇭🇰 Select, type: select, proxies: [], use: [XTTLOVE_HK, Halo_HK, IGG_HK] }
+  - { name: ✈️🇹🇼 Select, type: select, proxies: [], use: [XTTLOVE_TW, Halo_TW, IGG_TW] }
+  - { name: ✈️🇸🇬 Select, type: select, proxies: [], use: [XTTLOVE_SG, Halo_SG, IGG_SG] }
+  - { name: ✈️🇯🇵 Select, type: select, proxies: [], use: [XTTLOVE_JP, Halo_JP, IGG_JP] }
   ### Select ###
   - { name: ✈️🇰🇷 Select, type: select, proxies: [], use: [XTTLOVE_KR, IGG_KR] }
-  - { name: ✈️🇪🇺 Select, type: select,  proxies: [], use: [XTTLOVE_EUR, IGG_EUR] }
+  - { name: ✈️🇪🇺 Select, type: select,  proxies: [], use: [XTTLOVE_EUR, Halo_EUR, IGG_EUR] }
 
   - { name: 🎬 Bilibili, type: select, proxies: [DIRECT,  ✈️🇭🇰 Select, ✈️🇹🇼 Select, ✈️🇸🇬 Select], use: [] }
-  - { name: 🎮🇯🇵📱, type: select, proxies: [✈️🇭🇰 Select,✈️🇯🇵 Select, ✈️🇹🇼 Select], use: [XTTLOVE_TW, XTTLOVE_HK] }
-  - { name: ⚙️ OpenAI, type: select, proxies: [✈️🇺🇸 Select, ✈️🇭🇰 Select], use: [XTTLOVE_US, IGG_US] }
-  - { name: E Hentai, type: select, proxies: [✈️🇺🇸 Select], use: [XTTLOVE_US, IGG_US, XTTLOVE_HK, IGG_HK] }
+  - { name: 🎮🇯🇵📱, type: select, proxies: [✈️🇭🇰 Select,✈️🇯🇵 Select, ✈️🇹🇼 Select], use: [XTTLOVE_TW, Halo_TW, XTTLOVE_HK, Halo_HK] }
+  - { name: ⚙️ OpenAI, type: select, proxies: [✈️🇺🇸 Select, ✈️🇭🇰 Select], use: [XTTLOVE_US, Halo_US, IGG_US] }
+  - { name: E Hentai, type: select, proxies: [✈️🇺🇸 Select], use: [XTTLOVE_US, Halo_US, IGG_US, XTTLOVE_HK, Halo_HK, IGG_HK] }
   - { name: 📱 Chat & Social, type: select, proxies: [✈️🇺🇸 Select, ✈️🇸🇬 Select, ✈️🇭🇰 Select, ✈️🇯🇵 Select, ✈️🇰🇷 Select], use: [] }
   - { name: ☁️ CloudDrive, type: select, proxies: [✈️🇭🇰 Select, ✈️🇺🇸 Select,✈️🇸🇬 Select,  ✈️🇯🇵 Select ], use: [] }
   #  # OEM
@@ -46,8 +47,8 @@ proxy-groups:
   - { name: 🧩 Microsoft, type: select, proxies: [✈️🇭🇰 Select, ✈️🇺🇸 Select], use: [] }
   - { name: ☁️ OneDrive, type: select, proxies: [ 🧩 Microsoft, ✈️🇭🇰 Select, ✈️🇺🇸 Select, ✈️🇸🇬 Select, ✈️🇯🇵 Select, ✈️🇰🇷 Select], use: [] }
   - { name: 🐱 Github, type: select, proxies: [ 🧩 Microsoft, ✈️🇭🇰 Select, ✈️🇺🇸 Select, ✈️🇸🇬 Select, ✈️🇯🇵 Select, ✈️🇰🇷 Select], use: [] } 
-  - { name: 🇬 Google, type: select, proxies: [✈️🇭🇰 Select, ✈️🇺🇸 Select], use: [XTTLOVE_US, IGG_US, XTTLOVE_HK, IGG_HK] }
-  - { name: 🇬☁️ GoogleDrive, type: select, proxies: [🇬 Google, ✈️🇺🇸 Select, ✈️🇭🇰 Select ], use: [XTTLOVE_US, IGG_US, XTTLOVE_HK, IGG_HK] }
+  - { name: 🇬 Google, type: select, proxies: [✈️🇭🇰 Select, ✈️🇺🇸 Select], use: [XTTLOVE_US, Halo_US, IGG_US, XTTLOVE_HK, Halo_HK, IGG_HK] }
+  - { name: 🇬☁️ GoogleDrive, type: select, proxies: [🇬 Google, ✈️🇺🇸 Select, ✈️🇭🇰 Select ], use: [XTTLOVE_US, Halo_US, IGG_US, XTTLOVE_HK, Halo_HK, IGG_HK] }
 
   - { name: 🎮 GamePlatform, type: select, proxies: [✈️🇭🇰 Select, DIRECT, ✈️🇸🇬 Select, ✈️🇯🇵 Select, ✈️🇰🇷 Select, ✈️🇺🇸 Select,], use: [] }
   - { name: 🎮 GameDownload, type: select, proxies: [DIRECT, ✈️🇭🇰 Select, ✈️🇸🇬 Select, ✈️🇯🇵 Select, ✈️🇰🇷 Select, ✈️🇺🇸 Select, ], use: [] }
@@ -59,12 +60,12 @@ proxy-groups:
   - { name: 🎵 Music, type: select, proxies: [✈️🇭🇰 Select, ✈️🇺🇸 Select, ✈️🇸🇬 Select, ✈️🇯🇵 Select, ✈️🇰🇷 Select], use: [] }
  
   ### Media ###
-  - { name: 🎬 🇺🇸 Media, type: select, proxies: [✈️🇺🇸 Select,], use: [XTTLOVE_US, IGG_US] }
-  - { name: 🎬 🇭🇰 Media, type: select, proxies: [✈️🇭🇰 Select], use: [XTTLOVE_HK, IGG_HK] }
-  - { name: 🎬 🇹🇼 Media, type: select, proxies: [✈️🇹🇼 Select], use: [XTTLOVE_TW, IGG_TW] }
-  - { name: 🎬 🇯🇵 Media, type: select, proxies: [✈️🇯🇵 Select], use: [XTTLOVE_JP, IGG_JP] }
+  - { name: 🎬 🇺🇸 Media, type: select, proxies: [✈️🇺🇸 Select,], use: [XTTLOVE_US, Halo_US, IGG_US] }
+  - { name: 🎬 🇭🇰 Media, type: select, proxies: [✈️🇭🇰 Select], use: [XTTLOVE_HK, Halo_HK, IGG_HK] }
+  - { name: 🎬 🇹🇼 Media, type: select, proxies: [✈️🇹🇼 Select], use: [XTTLOVE_TW, Halo_TW, IGG_TW] }
+  - { name: 🎬 🇯🇵 Media, type: select, proxies: [✈️🇯🇵 Select], use: [XTTLOVE_JP, Halo_JP, IGG_JP] }
   - { name: 🎬 🇰🇷 Media, type: select, proxies: [✈️🇰🇷 Select], use: [XTTLOVE_KR, IGG_KR] }
-  - { name: 🎬 🇪🇺 Media, type: select, proxies: [✈️🇪🇺 Select], use: [XTTLOVE_EUR, IGG_EUR] }
+  - { name: 🎬 🇪🇺 Media, type: select, proxies: [✈️🇪🇺 Select], use: [XTTLOVE_EUR, Halo_EUR, IGG_EUR] }
   - { name: 🎬 TikTok, type: select, proxies: [🎬 🇺🇸 Media, 🎬 🇭🇰 Media, 🎬 🇹🇼 Media, 🎬 🇯🇵 Media, 🎬 🇰🇷 Media, 🎬 🇪🇺 Media], use: [] }
 
   # Global #
@@ -114,7 +115,7 @@ proxy-groups:
   - { name: 📱 Facebook, type: select, proxies: [📱 Chat & Social, ✈️🇺🇸 Select, ✈️🇭🇰 Select ], use: [] }
   - { name: 📱 Instagram, type: select, proxies: [📱 Chat & Social, ✈️🇺🇸 Select, ✈️🇭🇰 Select ], use: [] }
   - { name: 📱 Reddit, type: select, proxies: [📱 Chat & Social, ✈️🇺🇸 Select, ✈️🇭🇰 Select ], use: [] }
-  - { name: 🐟 漏网之鱼, type: select, proxies: [✈️🇭🇰 Select, DIRECT, ✈️🇸🇬 Select, ✈️🇯🇵 Select, ✈️🇰🇷 Select, ✈️🇺🇸 Select,], use: [XTTLOVE_HK, IGG_HK]}
+  - { name: 🐟 漏网之鱼, type: select, proxies: [✈️🇭🇰 Select, DIRECT, ✈️🇸🇬 Select, ✈️🇯🇵 Select, ✈️🇰🇷 Select, ✈️🇺🇸 Select,], use: [XTTLOVE_HK, Halo_HK, IGG_HK]}
 
   
 
@@ -303,6 +304,16 @@ XTTLOVE_: &XTTLOVE_XTTLOVE
     enable: true
     interval: 1800
     url: http://216.239.38.178/generate_204
+
+Halo_: &Halo_Halo
+  type: http
+  path: ./providers/proxy/Halo.yaml
+  url: https://cloud.halo.do/api/v1/client/subscribe?token=e794e941dec69afbcdc0a0c908c7b8e6
+  interval: 43200
+  health-check: 
+    enable: true
+    interval: 1800
+    url: http://216.239.38.178/genarate_204
 ######### Anchor end #########
 
 proxy-providers:
@@ -360,6 +371,33 @@ proxy-providers:
     <<: *XTTLOVE_XTTLOVE
     filter: 🇪🇺|🇦🇩|🇦🇱|🇦🇲|🇦🇹|🇦🇿|🇧🇦|🇧🇪|🇧🇬|🇧🇾|🇨🇭|🇨🇩|🇨🇭|🇨🇾|🇨🇿|🇩🇰|🇪🇪|🇪🇸|🇫🇮|🇫🇴|🇫🇷|🇬🇦|🇬🇧|🇬🇪|🇩🇪|🇬🇮|🇬🇷|🇭🇺|🇮🇪|🇮🇸|🇮🇹|🇽🇰|🇱🇮|🇱🇹|🇱🇺|🇲🇪|🇲🇰|🇲🇹|🇲🇩|🇳🇱|🇳🇴|🇵🇱|🇵🇹|🇷🇴|🇷🇺|🇸🇪|🇸🇮|🇸🇰|🇹🇷|🇺🇦|🇬🇧|🇻🇦|🇽🇰
 
+  # Halo #
+  Halo:
+    <<: *Halo_Halo
+  Halo_ALL:
+    <<: *Halo_Halo
+  Halo_US:
+    <<: *Halo_Halo
+    filter: 🇺🇸|US
+  Halo_SG:
+    <<: *Halo_Halo
+    filter: 🇸🇬|SG
+  Halo_HK:
+    <<: *Halo_Halo
+    filter: 🇭🇰 | 🇲🇴 |HK
+  Halo_TW:
+    <<: *Halo_Halo
+    filter: 🇹🇼|🇨🇳|TW
+  Halo_JP:
+    <<: *Halo_Halo
+    filter: 🇯🇵|JP
+  # Halo_KR:
+  #   <<: *Halo_Halo
+  #   filter: 🇰🇷|KR
+  Halo_EUR:
+    <<: *Halo_Halo
+    filter: 🇪🇺|🇦🇩|🇦🇱|🇦🇲|🇦🇹|🇦🇿|🇧🇦|🇧🇪|🇧🇬|🇧🇾|🇨🇭|🇨🇩|🇨🇭|🇨🇾|🇨🇿|🇩🇰|🇩🇪|🇪🇪|🇪🇸|🇫🇮|🇫🇴|🇫🇷|🇬🇦|🇬🇧|🇬🇪|🇩🇪|🇬🇮|🇬🇷|🇭🇺|🇮🇪|🇮🇸|🇮🇹|🇽🇰|🇱🇮|🇱🇹|🇱🇺|🇲🇪|🇲🇰|🇲🇹|🇲🇩|🇳🇱|🇳🇴|🇵🇱|🇵🇹|🇷🇴|🇷🇺|🇸🇪|🇸🇮|🇸🇰|🇹🇷|🇺🇦|🇻🇦|🇽🇰
+  
 
 rule-providers:
   LOCALHOST:
