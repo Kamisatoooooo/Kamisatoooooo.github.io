@@ -298,7 +298,7 @@ proxy-providers-config: &IGG_IGG
 XTTLOVE_: &XTTLOVE_XTTLOVE
   type: http
   path: ./providers/proxy/xttlove.yaml
-  url: https://suc2.sntp.io/api/v1/client/subscribe?token=d35979330af14fbe7ba91fc87304b5e2
+  url: https://suc2.sntp.io/baseStr?token=d35979330af14fbe7ba91fc87304b5e2
   interval: 43200
   health-check:
     enable: true
