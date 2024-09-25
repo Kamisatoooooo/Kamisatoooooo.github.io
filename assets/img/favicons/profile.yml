@@ -310,7 +310,7 @@ XTTLOVE_: &XTTLOVE_XTTLOVE
 Halo_: &Halo_Halo
   type: http
   path: ./providers/proxy/Halo.yaml
-  url: https://sub.halo.do/api/v1/client/subscribe?token=e794e941dec69afbcdc0a0c908c7b8e6
+  url: https://sub.halo.do/api/v1/client/subscribe?token=af78e0bad638afb102377dfe6fe97b2f
   interval: 43200
   health-check: 
     enable: true
