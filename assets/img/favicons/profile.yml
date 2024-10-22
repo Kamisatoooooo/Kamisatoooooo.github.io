@@ -293,7 +293,7 @@ IGG_: &IGG_IGG
   health-check:
     enable: true
     interval: 1800
-    url: hhttp://www.gstatic.com/generate_204
+    url: http://www.gstatic.com/generate_204
 
 XTTLOVE_: &XTTLOVE_XTTLOVE
   type: http
