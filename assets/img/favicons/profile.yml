@@ -293,6 +293,8 @@ IGG_: &IGG_IGG
     enable: true
     interval: 1800
     url: http://www.gstatic.com/generate_204
+  override:
+    additional-prefix: "[IGG] "
 
 XTTLOVE_: &XTTLOVE_XTTLOVE
   type: http
