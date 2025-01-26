@@ -114,6 +114,8 @@ proxy-groups:
   - { name: 📱 Facebook, type: select, proxies: [📱 Chat & Social, ✈️🇭🇰 Select, ✈️🇹🇼 Select, ✈️🇺🇸 Select], use: [] }
   - { name: 📱 Instagram, type: select, proxies: [📱 Chat & Social, ✈️🇭🇰 Select, ✈️🇹🇼 Select, ✈️🇺🇸 Select], use: [] }
   - { name: 📱 Reddit, type: select, proxies: [📱 Chat & Social, ✈️🇭🇰 Select, ✈️🇹🇼 Select, ✈️🇺🇸 Select], use: [] }
+
+  - { name: 📧 Yahoo, type: select, proxies: [📧 Mail, ✈️🇺🇸 Select, ✈️🇸🇬 Select, ✈️🇭🇰 Select, ✈️🇯🇵 Select, ✈️🇰🇷 Select], use: [Halo_ALL, Tag_ALL] }
   - { name: 🐟 漏网之鱼, type: select, proxies: [✈️🇭🇰 Select, DIRECT, ✈️🇸🇬 Select, ✈️🇯🇵 Select, ✈️🇰🇷 Select, ✈️🇺🇸 Select,], use: [XTTLOVE_HK, IGG_HK]}
 
   
@@ -275,6 +277,7 @@ rules:
   - DOMAIN-KEYWORD,pipicy,✈️🇺🇸 Select
   - DOMAIN-KEYWORD,tagss,✈️🇺🇸 Select
   - RULE-SET,Pixiv,📱 Pixiv
+  - RULE-SET,Yahoo,📧 Yahoo
   - GEOIP,CN,DIRECT
   # Domestic Websites
   - RULE-SET,JingDong,DIRECT
@@ -407,6 +410,13 @@ rule-providers:
     url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/OpenAI/OpenAI.yaml
     interval: 0 
   ### Service ###
+  # Yahoo
+  Yahoo:
+    type: http
+    path: ./providers/rule/Yahoo.yaml
+    behavior: "classical"
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/KannaSakura/Rule-provider/master/Yahoo.yaml
+    interval: 0
   # Apple
   AppleID:
     type: http
