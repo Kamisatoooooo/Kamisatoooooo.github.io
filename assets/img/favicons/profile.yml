@@ -115,8 +115,8 @@ proxy-groups:
   - { name: 📱 Instagram, type: select, proxies: [📱 Chat & Social, ✈️🇭🇰 Select, ✈️🇹🇼 Select, ✈️🇺🇸 Select], use: [] }
   - { name: 📱 Reddit, type: select, proxies: [📱 Chat & Social, ✈️🇭🇰 Select, ✈️🇹🇼 Select, ✈️🇺🇸 Select], use: [] }
 
-  - { name: 📧 Yahoo, type: select, proxies: [📧 Mail, ✈️🇺🇸 Select, ✈️🇸🇬 Select, ✈️🇭🇰 Select, ✈️🇯🇵 Select, ✈️🇰🇷 Select], use: [Halo_ALL, Tag_ALL] }
-  - { name: 🐟 漏网之鱼, type: select, proxies: [✈️🇭🇰 Select, DIRECT, ✈️🇸🇬 Select, ✈️🇯🇵 Select, ✈️🇰🇷 Select, ✈️🇺🇸 Select,], use: [XTTLOVE_HK, IGG_HK]}
+  - { name: 📧 Yahoo, type: select, proxies: [✈️🇭🇰 Select, ✈️🇹🇼 Select, ✈️🇺🇸 Select, ✈️🇸🇬 Select, ✈️🇯🇵 Select, ✈️🇰🇷 Select], use: [XTTLOVE_HK, IGG_HK] }
+  - { name: 🐟 漏网之鱼, type: select, proxies: [✈️🇭🇰 Select, DIRECT, ✈️🇹🇼 Select, ✈️🇸🇬 Select, ✈️🇯🇵 Select, ✈️🇰🇷 Select, ✈️🇺🇸 Select,], use: [XTTLOVE_HK, IGG_HK]}
 
   
 
