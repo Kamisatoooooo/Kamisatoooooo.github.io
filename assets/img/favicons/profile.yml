@@ -278,6 +278,7 @@ rules:
   - DOMAIN-KEYWORD,tagss,✈️🇺🇸 Select
   - RULE-SET,Pixiv,📱 Pixiv
   # Yahoo
+  - DOMAIN-KEYWORD,jsdelivr,📧 Yahoo
   - DOMAIN-KEYWORD,yahoo,📧 Yahoo
   - RULE-SET,Yahoo,📧 Yahoo
   - GEOIP,CN,DIRECT
