@@ -277,6 +277,8 @@ rules:
   - DOMAIN-KEYWORD,pipicy,✈️🇺🇸 Select
   - DOMAIN-KEYWORD,tagss,✈️🇺🇸 Select
   - RULE-SET,Pixiv,📱 Pixiv
+  # Yahoo
+  - DOMAIN-KEYWORD,yahoo,📧 Yahoo
   - RULE-SET,Yahoo,📧 Yahoo
   - GEOIP,CN,DIRECT
   # Domestic Websites
