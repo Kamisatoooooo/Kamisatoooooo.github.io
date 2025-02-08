@@ -28,3 +28,6 @@ _drafts
 # Misc
 _sass/dist
 assets/js/dist
+
+#local config
+./_config.yml
