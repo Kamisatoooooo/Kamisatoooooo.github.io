@@ -377,20 +377,20 @@ rule-providers:
     type: http
     path: ./providers/rule/LOCALHOST.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/KannaSakura/Rule-provider/master/LOCALHOST.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/KannaSakura/Rule-provider/master/LOCALHOST.yaml
     interval: 0
   DNS:
     type: http
     path: ./providers/rule/DNS.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/DNS/DNS.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/DNS/DNS.yaml
     interval: 0
   # Safety
   FUCK_YOU_MIUI:
     type: http
     path: ./providers/rule/FUCK_YOU_MIUI.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/KannaSakura/Rule-provider/master/FUCK_YOU_MIUI.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/KannaSakura/Rule-provider/master/FUCK_YOU_MIUI.yaml
     interval: 0
   ### Special ###
   # IP & Speed Test
@@ -398,19 +398,19 @@ rule-providers:
     type: http
     path: ./providers/rule/Speedtest.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Speedtest/Speedtest.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Speedtest/Speedtest.yaml
     interval: 0 
   IPTest:
     type: http
     path: ./providers/rule/IPTest.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/KannaSakura/Rule-provider/master/IPTest.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/KannaSakura/Rule-provider/master/IPTest.yaml
     interval: 0
   OpenAI:
     type: http
     path: ./providers/rule/OpenAI.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/OpenAI/OpenAI.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/OpenAI/OpenAI.yaml
     interval: 0 
   ### Service ###
   # Yahoo
@@ -425,258 +425,258 @@ rule-providers:
     type: http
     path: ./providers/rule/AppleID.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/AppleID/AppleID.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/AppleID/AppleID.yaml
     interval: 0
   AppStore:
     type: http
     path: ./providers/rule/AppStore.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/AppStore/AppStore.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/AppStore/AppStore.yaml
     interval: 0
   AppleFirmware:
     type: http
     path: ./providers/rule/AppleFirmware.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/AppleFirmware/AppleFirmware.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/AppleFirmware/AppleFirmware.yaml
     interval: 0
   AppleHardware:
     type: http
     path: ./providers/rule/AppleHardware.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/AppleHardware/AppleHardware.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/AppleHardware/AppleHardware.yaml
     interval: 0
   AppleMail:
     type: http
     path: ./providers/rule/AppleMail.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/AppleMail/AppleMail.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/AppleMail/AppleMail.yaml
     interval: 0
   AppleMedia:
     type: http
     path: ./providers/rule/AppleMedia.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/AppleMedia/AppleMedia.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/AppleMedia/AppleMedia.yaml
     interval: 0
   AppleNews:
     type: http
     path: ./providers/rule/AppleNews.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/AppleNews/AppleNews.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/AppleNews/AppleNews.yaml
     interval: 0
   AppleProxy:
     type: http
     path: ./providers/rule/AppleProxy.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/AppleProxy/AppleProxy.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/AppleProxy/AppleProxy.yaml
     interval: 0
   AppleDev:
     type: http
     path: ./providers/rule/AppleDev.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/AppleDev/AppleDev.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/AppleDev/AppleDev.yaml
     interval: 0
   AppleSysteamOTA:
     type: http
     path: ./providers/rule/AppleSysteamOTA.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/SystemOTA/SystemOTA.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/SystemOTA/SystemOTA.yaml
     interval: 0
   FindMy:
     type: http
     path: ./providers/rule/FindMy.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/FindMy/FindMy.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/FindMy/FindMy.yaml
     interval: 0
   FitnessPlus:
     type: http
     path: ./providers/rule/FitnessPlus.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/FitnessPlus/FitnessPlus.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/FitnessPlus/FitnessPlus.yaml
     interval: 0
   Siri:
     type: http
     path: ./providers/rule/Siri.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Siri/Siri.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Siri/Siri.yaml
     interval: 0
   TestFlight:
     type: http
     path: ./providers/rule/TestFlight.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/TestFlight/TestFlight.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/TestFlight/TestFlight.yaml
     interval: 0
   iCloud:
     type: http
     path: ./providers/rule/iCloud.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/iCloud/iCloud.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/iCloud/iCloud.yaml
     interval: 0
   iCloudPrivateRelay:
     type: http
     path: ./providers/rule/iCloudPrivateRelay.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/iCloudPrivateRelay/iCloudPrivateRelay.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/iCloudPrivateRelay/iCloudPrivateRelay.yaml
     interval: 0
   # Google #
   Google:
     type: http
     path: ./providers/rule/Google.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Google/Google.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Google/Google.yaml
     interval: 0
   GoogleDrive:
     type: http
     path: ./providers/rule/GoogleDrive.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/GoogleDrive/GoogleDrive.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/GoogleDrive/GoogleDrive.yaml
     interval: 0
   GoogleEarth:
     type: http
     path: ./providers/rule/GoogleEarth.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/GoogleEarth/GoogleEarth.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/GoogleEarth/GoogleEarth.yaml
     interval: 0
   GoogleFCM:
     type: http
     path: ./providers/rule/GoogleFCM.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/GoogleFCM/GoogleFCM.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/GoogleFCM/GoogleFCM.yaml
     interval: 0
   GoogleSearch:
     type: http
     path: ./providers/rule/GoogleSearch.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/GoogleSearch/GoogleSearch.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/GoogleSearch/GoogleSearch.yaml
     interval: 0
   GoogleVoice:
     type: http
     path: ./providers/rule/GoogleVoice.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/GoogleVoice/GoogleVoice.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/GoogleVoice/GoogleVoice.yaml
     interval: 0
   # Microsoft #
   Github:
     type: http
     path: ./providers/rule/Github.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/GitHub/GitHub.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/GitHub/GitHub.yaml
     interval: 0
   NewBing:
     type: http
     path: ./providers/rule/NewBing.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/KannaSakura/Rule-provider/master/NewBing.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/KannaSakura/Rule-provider/master/NewBing.yaml
     interval: 0
   Microsoft:
     type: http
     path: ./providers/rule/Microsoft.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Microsoft/Microsoft.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Microsoft/Microsoft.yaml
     interval: 0
   MicrosoftTeams:
     type: http
     path: ./providers/rule/MicrosoftTeams.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Teams/Teams.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Teams/Teams.yaml
     interval: 0
   MicrosoftEdge:
     type: http
     path: ./providers/rule/MicrosoftEdge.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/MicrosoftEdge/MicrosoftEdge.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/MicrosoftEdge/MicrosoftEdge.yaml
     interval: 0
   OneDrive:
     type: http
     path: ./providers/rule/OneDrive.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/OneDrive/OneDrive.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/OneDrive/OneDrive.yaml
     interval: 0
   # Emby
   EMBY:
     type: http
     path: ./providers/rule/EMBY.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Emby/Emby.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Emby/Emby.yaml
     interval: 0
   ### Media ###
   TikTok:
     type: http
     path: ./providers/rule/TikTok.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/TikTok/TikTok.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/TikTok/TikTok.yaml
     interval: 0
   # Global #
   Twitch:
     type: http
     path: ./providers/rule/Twitch.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Twitch/Twitch.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Twitch/Twitch.yaml
     interval: 0
   Netflix:
     type: http
     path: ./providers/rule/Netflix.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Netflix/Netflix.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Netflix/Netflix.yaml
     interval: 0
   YouTube:
     type: http
     path: ./providers/rule/YouTube.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/YouTube/YouTube.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/YouTube/YouTube.yaml
     interval: 0
   ViuTV:
     type: http
     path: ./providers/rule/ViuTV.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/ViuTV/ViuTV.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/ViuTV/ViuTV.yaml
     interval: 0
   DisneyPlus:
     type: http
     path: ./providers/rule/DisneyPlus.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Disney/Disney.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Disney/Disney.yaml
     interval: 0
   PrimeVideo:
     type: http
     path: ./providers/rule/PrimeVideo.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/AmazonPrimeVideo/AmazonPrimeVideo.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/AmazonPrimeVideo/AmazonPrimeVideo.yaml
     interval: 0
   AppleTV:
     type: http
     path: ./providers/rule/AppleTV.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/AppleTV/AppleTV.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/AppleTV/AppleTV.yaml
     interval: 0
   DAZN:
     type: http
     path: ./providers/rule/DAZN.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/DAZN/DAZN.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/DAZN/DAZN.yaml
     interval: 0
   Hulu:
     type: http
     path: ./providers/rule/Hulu.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/HuluUSA/HuluUSA.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/HuluUSA/HuluUSA.yaml
     interval: 0
   HBO:
     type: http
     path: ./providers/rule/HBO.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/HBO/HBO.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/HBO/HBO.yaml
     interval: 0
   Bilibili:
     type: http
     path: ./providers/rule/Bilibili.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/BiliBili/BiliBili.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/BiliBili/BiliBili.yaml
     interval: 0
   BilibiliHMT:
     type: http
     path: ./providers/rule/BilibiliHMT.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/BiliBiliIntl/BiliBiliIntl.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/BiliBiliIntl/BiliBiliIntl.yaml
     interval: 0
 
   # Hong Kong、Taiwan、Macao #
@@ -684,199 +684,199 @@ rule-providers:
     type: http
     path: ./providers/rule/KKTV.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/KKTV/KKTV.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/KKTV/KKTV.yaml
     interval: 0
   Bahamut:
     type: http
     path: ./providers/rule/Bahamut.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Bahamut/Bahamut.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Bahamut/Bahamut.yaml
     interval: 0
   HamiVideo:
     type: http
     path: ./providers/rule/HamiVideo.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/HamiVideo/HamiVideo.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/HamiVideo/HamiVideo.yaml
     interval: 0
   # CatchPlay+
   NowE:
     type: http
     path: ./providers/rule/NowE.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/NowE/NowE.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/NowE/NowE.yaml
     interval: 0
   HBOAsia:
     type: http
     path: ./providers/rule/HBOAsia.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/HBOAsia/HBOAsia.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/HBOAsia/HBOAsia.yaml
     interval: 0
   # Myvideo
   LineTV:
     type: http
     path: ./providers/rule/LineTV.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/LineTV/LineTV.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/LineTV/LineTV.yaml
     interval: 0
   LiTV:
     type: http
     path: ./providers/rule/LiTV.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/LiTV/LiTV.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/LiTV/LiTV.yaml
     interval: 0
   myTVSUPER:
     type: http
     path: ./providers/rule/myTVSUPER.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/myTVSUPER/myTVSUPER.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/myTVSUPER/myTVSUPER.yaml
     interval: 0
   # Korean #
   NaverTV:
     type: http
     path: ./providers/rule/NaverTV.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/NaverTV/NaverTV.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/NaverTV/NaverTV.yaml
     interval: 0
   Naver:
     type: http
     path: ./providers/rule/Naver.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Naver/Naver.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Naver/Naver.yaml
     interval: 0
   # Japan #
   DMM:
     type: http
     path: ./providers/rule/DMM.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/DMM/DMM.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/DMM/DMM.yaml
     interval: 0
   Abema:
     type: http
     path: ./providers/rule/Abema.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Abema/Abema.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Abema/Abema.yaml
     interval: 0
   AbemaTV:
     type: http
     path: ./providers/rule/AbemaTV.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/AbemaTV/AbemaTV.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/AbemaTV/AbemaTV.yaml
     interval: 0
   Niconico:
     type: http
     path: ./providers/rule/Niconico.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Niconico/Niconico.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Niconico/Niconico.yaml
     interval: 0
   TVer:
     type: http
     path: ./providers/rule/TVer.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/TVer/TVer.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/TVer/TVer.yaml
     interval: 0
   HuluJP:
     type: http
     path: ./providers/rule/HuluJP.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/HuluJP/HuluJP.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/HuluJP/HuluJP.yaml
     interval: 0
   # North America #
   ABC:
     type: http
     path: ./providers/rule/ABC.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/ABC/ABC.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/ABC/ABC.yaml
     interval: 0  
   Fox:
     type: http
     path: ./providers/rule/Fox.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Fox/Fox.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Fox/Fox.yaml
     interval: 0
   Espn:
     type: http
     path: ./providers/rule/Espn.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Espn/Espn.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Espn/Espn.yaml
     interval: 0
   BritBox:
     type: http
     path: ./providers/rule/BritBox.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/BritboxUK/BritboxUK.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/BritboxUK/BritboxUK.yaml
     interval: 0
   HBOMax:
     type: http
     path: ./providers/rule/HBOMax.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/HBOUSA/HBOUSA.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/HBOUSA/HBOUSA.yaml
     interval: 0
   NBCTV:
     type: http
     path: ./providers/rule/NBCTV.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/NBC/NBC.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/NBC/NBC.yaml
     interval: 0
   FuboTV:
     type: http
     path: ./providers/rule/FuboTV.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/FuboTV/FuboTV.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/FuboTV/FuboTV.yaml
     interval: 0
   SlingTV:
     type: http
     path: ./providers/rule/SlingTV.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Sling/Sling.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Sling/Sling.yaml
     interval: 0
   EncoreTVB:
     type: http
     path: ./providers/rule/EncoreTVB.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/EncoreTVB/EncoreTVB.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/EncoreTVB/EncoreTVB.yaml
     interval: 0
   DiscoveryPlus:
     type: http
     path: ./providers/rule/DiscoveryPlus.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/DiscoveryPlus/DiscoveryPlus.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/DiscoveryPlus/DiscoveryPlus.yaml
     interval: 0
   ParamountPlus:
     type: http
     path: ./providers/rule/ParamountPlus.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/ParamountPlus/ParamountPlus.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/ParamountPlus/ParamountPlus.yaml
     interval: 0
   PeacockTV:
     type: http
     path: ./providers/rule/PeacockTV.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Peacock/Peacock.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Peacock/Peacock.yaml
     interval: 0
   # Europe #
   BBC:
     type: http
     path: ./providers/rule/BBC.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/BBC/BBC.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/BBC/BBC.yaml
     interval: 0
   RakutenTV:
     type: http
     path: ./providers/rule/RakutenTV.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Rakuten/Rakuten.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Rakuten/Rakuten.yaml
     interval: 0
   SkyGo:
     type: http
     path: ./providers/rule/SkyGo.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/SkyGO/SkyGO.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/SkyGO/SkyGO.yaml
     interval: 0
   ITVHub:
     type: http
     path: ./providers/rule/ITVHub.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/ITV/ITV.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/ITV/ITV.yaml
     interval: 0
 
   # Music
@@ -884,324 +884,324 @@ rule-providers:
     type: http
     path: ./providers/rule/Spotify.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Spotify/Spotify.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Spotify/Spotify.yaml
     interval: 0
   Pandora:
     type: http
     path: ./providers/rule/Pandora.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Pandora/Pandora.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Pandora/Pandora.yaml
     interval: 0
   AppleMusic:
     type: http
     path: ./providers/rule/AppleMusic.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/AppleMusic/AppleMusic.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/AppleMusic/AppleMusic.yaml
     interval: 0
   Beats:
     type: http
     path: ./providers/rule/Beats.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Beats/Beats.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Beats/Beats.yaml
     interval: 0
   YouTubeMusic:
     type: http
     path: ./providers/rule/YouTubeMusic.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/YouTubeMusic/YouTubeMusic.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/YouTubeMusic/YouTubeMusic.yaml
     interval: 0
   Deezer:
     type: http
     path: ./providers/rule/Deezer.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Deezer/Deezer.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Deezer/Deezer.yaml
     interval: 0
   Qobuz:
     type: http
     path: ./providers/rule/Qobuz.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Qobuz/Qobuz.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Qobuz/Qobuz.yaml
     interval: 0
   Tidal:
     type: http
     path: ./providers/rule/Tidal.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/TIDAL/TIDAL.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/TIDAL/TIDAL.yaml
     interval: 0
   SoundCloud:
     type: http
     path: ./providers/rule/SoundCloud.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/SoundCloud/SoundCloud.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/SoundCloud/SoundCloud.yaml
     interval: 0
   # Communication
   Telegram:
     type: http
     path: ./providers/rule/Telegram.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Telegram/Telegram.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Telegram/Telegram.yaml
     interval: 0
   Whatsapp:
     type: http
     path: ./providers/rule/Whatsapp.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Whatsapp/Whatsapp.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Whatsapp/Whatsapp.yaml
     interval: 0
   Line:
     type: http
     path: ./providers/rule/Line.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Line/Line.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Line/Line.yaml
   # Social
   Facebook:
     type: http
     path: ./providers/rule/Facebook.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Facebook/Facebook.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Facebook/Facebook.yaml
     interval: 0
   Twitter:
     type: http
     path: ./providers/rule/Twitter.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Twitter/Twitter.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Twitter/Twitter.yaml
     interval: 0
   Instagram:
     type: http
     path: ./providers/rule/Instagram.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Instagram/Instagram.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Instagram/Instagram.yaml
     interval: 0
   Reddit:
     type: http
     path: ./providers/rule/Reddit.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Reddit/Reddit.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Reddit/Reddit.yaml
     interval: 0
   # Gaming
   Discord:
     type: http
     path: ./providers/rule/Discord.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Discord/Discord.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Discord/Discord.yaml
     interval: 0
   GameDownload:
     type: http
     path: ./providers/rule/GameDownload.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Game/GameDownload/GameDownload.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Game/GameDownload/GameDownload.yaml
     interval: 0
   JP_mobile_game:
     type: http
     path: ./providers/rule/JP_mobile_game.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/KannaSakura/Rule-provider/master/JP_MOBILE_GAME.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/KannaSakura/Rule-provider/master/JP_MOBILE_GAME.yaml
     interval: 0
   Wargaming:
     type: http
     path: ./providers/rule/Wargaming.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/KannaSakura/Rule-provider/master/Wargaming.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/KannaSakura/Rule-provider/master/Wargaming.yaml
     interval: 0
   HoYoverse:
     type: http
     path: ./providers/rule/HoYoverse.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/HoYoverse/HoYoverse.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/HoYoverse/HoYoverse.yaml
     interval: 0
   Steam:
     type: http
     path: ./providers/rule/Steam.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Steam/Steam.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Steam/Steam.yaml
     interval: 0
   EpicGames:
     type: http
     path: ./providers/rule/EpicGames.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Epic/Epic.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Epic/Epic.yaml
     interval: 0
   Origin:
     type: http
     path: ./providers/rule/Origin.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Origin/Origin.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Origin/Origin.yaml
     interval: 0
   Xbox:
     type: http
     path: ./providers/rule/Xbox.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Xbox/Xbox.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Xbox/Xbox.yaml
     interval: 0
   PlayStation:
     type: http
     path: ./providers/rule/PlayStation.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/PlayStation/PlayStation.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/PlayStation/PlayStation.yaml
     interval: 0
   Nintendo:
     type: http
     path: ./providers/rule/Nintendo.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Nintendo/Nintendo.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Nintendo/Nintendo.yaml
     interval: 0
   Riot:
     type: http
     path: ./providers/rule/Riot.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Riot/Riot.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Riot/Riot.yaml
     interval: 0
   EA:
     type: http
     path: ./providers/rule/EA.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/EA/EA.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/EA/EA.yaml
   Uplay:
     type: http
     path: ./providers/rule/Uplay.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/UBI/UBI.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/UBI/UBI.yaml
     interval: 0
   # Economy
   PayPal:
     type: http
     path: ./providers/rule/PayPal.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/PayPal/PayPal.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/PayPal/PayPal.yaml
     interval: 0
   VISA:
     type: http
     path: ./providers/rule/VISA.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/VISA/VISA.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/VISA/VISA.yaml
     interval: 0
   Binance:
     type: http
     path: ./providers/rule/Binance.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Binance/Binance.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Binance/Binance.yaml
     interval: 0
   # CloudDrive
   MEGA:
     type: http
     path: ./providers/rule/MEGA.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/MEGA/MEGA.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/MEGA/MEGA.yaml
     interval: 0
   TeraBox:
     type: http
     path: ./providers/rule/TeraBox.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/TeraBox/TeraBox.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/TeraBox/TeraBox.yaml
     interval: 0
   Dropbox:
     type: http
     path: ./providers/rule/Dropbox.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Dropbox/Dropbox.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Dropbox/Dropbox.yaml
     interval: 0
   PikPak:
     type: http
     path: ./providers/rule/PikPak.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/PikPak/PikPak.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/PikPak/PikPak.yaml
     interval: 0
   CloudDrive:
     type: http
     path: ./providers/rule/CloudDrive.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/KannaSakura/Rule-provider/master/CloudDrive.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/KannaSakura/Rule-provider/master/CloudDrive.yaml
     interval: 0
   # OEM
   XiaoMi:
     type: http
     path: ./providers/rule/XiaoMi.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/XiaoMi/XiaoMi.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/XiaoMi/XiaoMi.yaml
     interval: 0
   Huawei:
     type: http
     path: ./providers/rule/Huawei.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Huawei/Huawei.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Huawei/Huawei.yaml
     interval: 0
   OPPO:
     type: http
     path: ./providers/rule/OPPO.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/OPPO/OPPO.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/OPPO/OPPO.yaml
     interval: 0
   Vivo:
     type: http
     path: ./providers/rule/Vivo.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Vivo/Vivo.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Vivo/Vivo.yaml
     interval: 0
   OnePlus:
     type: http
     path: ./providers/rule/OnePlus.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/OnePlus/OnePlus.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/OnePlus/OnePlus.yaml
     interval: 0
   # Foreign Websites
   Razer:
     type: http
     path: ./providers/rule/Razer.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Razer/Razer.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Razer/Razer.yaml
     interval: 0
   Nvidia:
     type: http
     path: ./providers/rule/Nvidia.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Nvidia/Nvidia.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Nvidia/Nvidia.yaml
     interval: 0
   # Web
   Pixiv:
     type: http
     path: ./providers/rule/Pixiv.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Pixiv/Pixiv.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Pixiv/Pixiv.yaml
     interval: 0
   # Domestic Websites
   Douyu:
     type: http
     path: ./providers/rule/Douyu.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Douyu/Douyu.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Douyu/Douyu.yaml
     interval: 0
   Huya:
     type: http
     path: ./providers/rule/Huya.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/HuYa/HuYa.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/HuYa/HuYa.yaml
     interval: 0
   JingDong:
     type: http
     path: ./providers/rule/JingDong.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/JingDong/JingDong.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/JingDong/JingDong.yaml
     interval: 0
   Alibaba:
     type: http
     path: ./providers/rule/Alibaba.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Alibaba/Alibaba.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/Alibaba/Alibaba.yaml
     interval: 0
   AliPay:
     type: http
     path: ./providers/rule/AliPay.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/AliPay/AliPay.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/ericz15/ios_rule_script/master/rule/Clash/AliPay/AliPay.yaml
     interval: 0
   Process_CN:
     type: http
     path: ./providers/rule/Process_CN.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/KannaSakura/Rule-provider/master/PROCESS_CN.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/KannaSakura/Rule-provider/master/PROCESS_CN.yaml
     interval: 0
   PROCESS_CN_Android:
     type: http
     path: ./providers/rule/PROCESS_CN_Android.yaml
     behavior: "classical"
-    url: https://ghp.ci/https://raw.githubusercontent.com/KannaSakura/Rule-provider/master/PROCESS_CN_Android.yaml
+    url: https://ghfast.top/https://raw.githubusercontent.com/KannaSakura/Rule-provider/master/PROCESS_CN_Android.yaml
     interval: 0
