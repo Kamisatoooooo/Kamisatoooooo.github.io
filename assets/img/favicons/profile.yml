@@ -25,11 +25,11 @@ proxy-groups:
   - { name: IGG, type: select, proxies: [], use: [IGG] }
 
   ### Frequently used ###
-  - { name: ✈️🇺🇸 Select, type: select, proxies: [✈️🇭🇰 Select], use: [XTTLOVE_US, IGG_US] }
-  - { name: ✈️🇭🇰 Select, type: select, proxies: [], use: [XTTLOVE_HK, IGG_HK] }
-  - { name: ✈️🇹🇼 Select, type: select, proxies: [], use: [XTTLOVE_TW, IGG_TW] }
-  - { name: ✈️🇸🇬 Select, type: select, proxies: [], use: [XTTLOVE_SG, IGG_SG] }
-  - { name: ✈️🇯🇵 Select, type: select, proxies: [], use: [XTTLOVE_JP, IGG_JP] }
+  - { name: ✈️🇺🇸 Select, type: select, proxies: [✈️🇭🇰 Select], use: [XTTLOVE_US, IGG_US, YTOO_HELP_US] }
+  - { name: ✈️🇭🇰 Select, type: select, proxies: [], use: [XTTLOVE_HK, IGG_HK, YTOO_HELP_HK] }
+  - { name: ✈️🇹🇼 Select, type: select, proxies: [], use: [XTTLOVE_TW, IGG_TW, YTOO_HELP_TW] }
+  - { name: ✈️🇸🇬 Select, type: select, proxies: [], use: [XTTLOVE_SG, IGG_SG, YTOO_HELP_SG] }
+  - { name: ✈️🇯🇵 Select, type: select, proxies: [], use: [XTTLOVE_JP, IGG_JP, YTOO_HELP_JP] }
   ### Select ###
   - { name: ✈️🇰🇷 Select, type: select, proxies: [], use: [XTTLOVE_KR, IGG_KR] }
   - { name: ✈️🇪🇺 Select, type: select,  proxies: [], use: [XTTLOVE_EUR, IGG_EUR] }
@@ -314,6 +314,18 @@ XTTLOVE_: &XTTLOVE_XTTLOVE
   override:
     additional-prefix: "[守候] "
 
+YTOO_: &YTOO_YTOO
+  type: http
+  path: ./providers/proxy/ytoo.yaml
+  url: https://api.stentvessel.top/sub?target=clash&new_name=true&emoji=true&clash.doh=true&filename=YToo_SS&udp=true&url=https%3A%2F%2Fapi.ytoo.xyz%2Fosubscribe.php%3Fsid%3D75924%26token%3DeLLyIjuzUxCb%26sip002%3D1
+  interval: 43200
+  health-check:
+    enable: true
+    interval: 1800
+    url: http://216.239.38.178/generate_204
+  override:
+    additional-prefix: "[YTOO] "
+
 ######### Anchor end #########
 
 proxy-providers:
@@ -371,6 +383,22 @@ proxy-providers:
     <<: *XTTLOVE_XTTLOVE
     filter: 🇪🇺|🇦🇩|🇦🇱|🇦🇲|🇦🇹|🇦🇿|🇧🇦|🇧🇪|🇧🇬|🇧🇾|🇨🇭|🇨🇩|🇨🇭|🇨🇾|🇨🇿|🇩🇰|🇪🇪|🇪🇸|🇫🇮|🇫🇴|🇫🇷|🇬🇦|🇬🇧|🇬🇪|🇩🇪|🇬🇮|🇬🇷|🇭🇺|🇮🇪|🇮🇸|🇮🇹|🇽🇰|🇱🇮|🇱🇹|🇱🇺|🇲🇪|🇲🇰|🇲🇹|🇲🇩|🇳🇱|🇳🇴|🇵🇱|🇵🇹|🇷🇴|🇷🇺|🇸🇪|🇸🇮|🇸🇰|🇹🇷|🇺🇦|🇬🇧|🇻🇦|🇽🇰
 
+  #YTOO
+  YTOO_HELP_HK:
+    <<: *YTOO_YTOO
+    filter: 🇭🇰 标准 专线 香港 01
+  YTOO_HELP_TW:
+    <<: *YTOO_YTOO
+    filter: 🇨🇳 标准 专线 台湾 01
+  YTOO_HELP_SG:
+    <<: *YTOO_YTOO
+    filter: 🇸🇬 标准 专线 狮城 01
+  YTOO_HELP_US:
+    <<: *YTOO_YTOO
+    filter: 🇺🇸 标准 专线 美国 01
+  YTOO_HELP_JP:
+    <<: *YTOO_YTOO
+    filter: 🇯🇵 标准 专线 日本 01
 
 rule-providers:
   LOCALHOST:
