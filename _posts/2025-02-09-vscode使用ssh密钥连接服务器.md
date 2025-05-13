@@ -8,6 +8,7 @@ category:
 - Blog
 - Web
 tags: 
+- SSH
 - 服务器
 - 教程
 image:
