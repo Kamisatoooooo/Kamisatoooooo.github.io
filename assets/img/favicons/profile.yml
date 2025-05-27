@@ -305,7 +305,7 @@ IGG_: &IGG_IGG
 XTTLOVE_: &XTTLOVE_XTTLOVE
   type: http
   path: ./providers/proxy/xttlove.yaml
-  url: https://suc2.sntp.io/baseStr?token=7faf07d355924b0a64111fbcc9755ba6
+  url: https://sub1.sntp.dev/baseStr?token=7faf07d355924b0a64111fbcc9755ba6&timestamp=120879
   interval: 43200
   health-check:
     enable: true
