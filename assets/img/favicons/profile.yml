@@ -26,7 +26,7 @@ proxy-groups:
 
   ### Frequently used ###
   - { name: ✈️🇺🇸 Select, type: select, proxies: [✈️🇭🇰 Select], use: [XTTLOVE_US, IGG_US, YTOO_HELP_US] }
-  - { name: ✈️🇭🇰 Select, type: select, proxies: [], use: [XTTLOVE_HK, IGG_HK, YTOO_HELP_HK] }
+  - { name: ✈️🇭🇰 Select, type: select, proxies: [✈️🇸🇬 Select, ✈️🇯🇵 Select], use: [XTTLOVE_HK, IGG_HK, YTOO_HELP_HK] }
   - { name: ✈️🇹🇼 Select, type: select, proxies: [], use: [XTTLOVE_TW, IGG_TW, YTOO_HELP_TW] }
   - { name: ✈️🇸🇬 Select, type: select, proxies: [], use: [XTTLOVE_SG, IGG_SG, YTOO_HELP_SG] }
   - { name: ✈️🇯🇵 Select, type: select, proxies: [], use: [XTTLOVE_JP, IGG_JP, YTOO_HELP_JP] }
