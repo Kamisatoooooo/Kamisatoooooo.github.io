@@ -317,7 +317,7 @@ XTTLOVE_: &XTTLOVE_XTTLOVE
 YTOO_: &YTOO_YTOO
   type: http
   path: ./providers/proxy/ytoo.yaml
-  url: https://api.stentvessel.top/sub?target=clash&new_name=true&emoji=true&clash.doh=true&filename=YToo_SS&udp=true&url=https%3A%2F%2Fapi.ytoo.xyz%2Fosubscribe.php%3Fsid%3D75924%26token%3DeLLyIjuzUxCb%26sip002%3D1
+  url: https://qtt-163cdn.com/sub?target=clash&new_name=true&emoji=true&clash.doh=true&filename=YToo_SS&udp=false&url=https%3A%2F%2Fapi.ytoo.xyz%2Fosubscribe.php%3Fsid%3D114870%26token%3DLPMJLQD3bM6VcJ2XnhMT%26sip002%3D1
   interval: 43200
   health-check:
     enable: true
